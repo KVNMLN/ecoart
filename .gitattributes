@@ -1,0 +1,30 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Documentation
+*.md text diff=markdown
+*.txt text
+*.rst text
+*.json text
+
+# Git Config
+.gitattributes text
+.gitignore text
+.gitconfig text
+
+# Graphics
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Scripts
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# IPFS & Arweave specific
+*.ipfs-hash text
+*.ar-tx text 

@@ -1,0 +1,38 @@
+{
+  "name": "ecoart",
+  "version": "1.0.0",
+  "description": "EcoArt: A Collaborative Understanding (Evolved Resonance & Conscious Interaction)",
+  "main": "scripts/deploy.js",
+  "scripts": {
+    "deploy": "node scripts/deploy.js",
+    "deploy:ipfs": "node scripts/deploy.js --platform=ipfs",
+    "deploy:arweave": "node scripts/deploy.js --platform=arweave",
+    "deploy:radicle": "node scripts/deploy.js --platform=radicle"
+  },
+  "dependencies": {
+    "ipfs-http-client": "^56.0.0",
+    "arweave": "^1.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/ecoart.git"
+  },
+  "keywords": [
+    "ecoart",
+    "collaboration",
+    "consciousness",
+    "decentralized",
+    "web3",
+    "ipfs",
+    "arweave",
+    "radicle"
+  ],
+  "author": "kevin molina and contributors",
+  "license": "SEE LICENSE IN LICENSE"
+} 

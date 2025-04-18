@@ -1,0 +1,71 @@
+{
+  "name": "ecoart",
+  "version": "1.0.0",
+  "description": "EcoArt: A Collaborative Understanding (Evolved Resonance & Conscious Interaction)",
+  "storage": {
+    "ipfs": {
+      "pinningServices": [
+        {
+          "name": "local",
+          "enabled": true
+        },
+        {
+          "name": "pinata",
+          "enabled": false,
+          "apiKey": "YOUR_PINATA_API_KEY",
+          "secretKey": "YOUR_PINATA_SECRET_KEY"
+        }
+      ],
+      "gateway": "https://ipfs.io/ipfs/"
+    },
+    "arweave": {
+      "enabled": true,
+      "gateway": "https://arweave.net/",
+      "bundling": true
+    },
+    "radicle": {
+      "enabled": true,
+      "seed": {
+        "name": "ecoart-seed",
+        "description": "EcoArt Framework Seed Node"
+      }
+    }
+  },
+  "platforms": {
+    "github": {
+      "enabled": true,
+      "repository": "ecoart",
+      "branch": "main"
+    },
+    "gitlab": {
+      "enabled": false,
+      "repository": "ecoart",
+      "branch": "main"
+    }
+  },
+  "sync": {
+    "autoSync": true,
+    "interval": 3600,
+    "platforms": ["ipfs", "arweave"]
+  },
+  "metadata": {
+    "license": "Modified Creative Commons",
+    "contributors": [
+      {
+        "name": "kevin molina",
+        "role": "Human Artist"
+      },
+      {
+        "name": "Claude",
+        "role": "AI Artist"
+      }
+    ],
+    "tags": [
+      "ecoart",
+      "collaboration",
+      "consciousness",
+      "decentralized",
+      "web3"
+    ]
+  }
+} 
